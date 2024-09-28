@@ -1,0 +1,61 @@
+/* Custom styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+/* Box message styling */
+.whatsapp-message-box {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.whatsapp-message-box p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.whatsapp-message-box::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
