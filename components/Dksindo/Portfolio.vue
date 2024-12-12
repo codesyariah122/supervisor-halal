@@ -1,6 +1,6 @@
 <template>
-	<section id="portfolio" class="bg-gray-200 py-24 px-6">
-		<div class="max-w-full mx-auto">
+	<section id="portfolio" class="bg-gray-200 py-24 px-6 bg-topography bg-cover bg-no-repeat">
+		<div class="max-w-[90vw] mx-auto">
 			<!-- Portfolio content -->
 			<h2 class="text-3xl font-semibold mb-8 text-center">Portfolio</h2>
 			<!-- Portfolio items -->
@@ -36,6 +36,7 @@
 		</div>
 	</section>
 </template>
+
 
 <script>
 	export default {
@@ -123,8 +124,10 @@
 
 
 
-
 <style>
+	.bg-topography {
+		background-image: url('/topography.webp');
+	}
 	.carousel__item {
 		background-color: rgb(134, 239, 172);
 		min-height: 200px;
@@ -147,7 +150,7 @@
 		background-color: rgba(0, 0, 0, 1.0);
 		padding: 5px;
 		border-radius: 50%;
-		color: rgba(255,255,255,1);
+		color: rgba(255, 255, 255, 1);
 	}
 	.carousel__prev:hover,
 	.carousel__next:hover {
