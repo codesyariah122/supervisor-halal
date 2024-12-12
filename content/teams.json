@@ -1,0 +1,25 @@
+{
+	"Vio": {
+		"_id": 1,
+		"name": "Beri Tonjo",
+		"phone": "629675840664",
+		"phoneText": "08296 7584 0664",
+		"alternateName": "Beri Tonjo",
+		"nationality": "Indonesia",
+		"gender": "Male",
+		"jobTitle": "Founder & Bussiness Manager",
+		"src": "/images/teams/default.jpg"
+	},
+	
+	"Puji": {
+		"_id": 3,
+		"name": "Sultan Bakrie",
+		"phone": "6288222668778",
+		"phoneText": "0882 2266 8778",
+		"alternateName": "Sultan Bakrie",
+		"nationality": "Indonesia",
+		"gender": "Male",
+		"jobTitle": "Marketing & Sales",
+		"src": "/images/teams/default.jpg"
+	}
+}
