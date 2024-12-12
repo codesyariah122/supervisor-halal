@@ -1,7 +1,7 @@
 ---
 title: 'Pelatihan Sistem Jaminan Halal (SJH)'
 description: "Tingkatkan pemahaman dan implementasi SJH di perusahaan Anda melalui pelatihan yang interaktif dan mendalam."
-headline: 'Memahami Technology Infrastructure: Fondasi Utama untuk Bisnis Digital yang Sukses'
+headline: 'Pelatihan Sistem Jaminan Halal: Wujudkan Kepatuhan dan Kepercayaan Pelanggan'
 excerpt: 'Pelatihan Sistem Jaminan Halal (SJH) dirancang untuk meningkatkan pemahaman dan kemampuan perusahaan dalam menerapkan sistem yang memastikan kepatuhan halal secara menyeluruh. Dengan pendekatan interaktif dan komprehensif, pelatihan ini membantu bisnis Anda menciptakan proses yang efektif dan membangun kepercayaan konsumen terhadap produk Anda.'
 date: '2023-04-19T16:00:00'
 city: 'Cimahi'
