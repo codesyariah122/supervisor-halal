@@ -1,9 +1,3 @@
-<style scoped>
-    .brand-nav {
-        font-family: 'poppins';
-    }
-</style>
-
 <template>
     <nav class="bg-[#700482] text-white border-[#700482] fixed top-0 z-50 w-full shadow-lg">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
@@ -34,16 +28,13 @@
                     <li>
                         <a href="#portfolio" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Portfolio</a>
                     </li>
-                    <!-- <li>
-                        <a href="#samples" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Samples</a>
-                    </li> -->
                     <li>
                         <a href="#kontak" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Kontak</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div  v-show="isMenuOpen" id="mega-menu-full-dropdown" class="border-[#700482] shadow-sm bg-[#700482] md:bg-[#700482] border-y">
+        <div v-show="isMenuOpen" id="mega-menu-full-dropdown" class="border-[#700482] shadow-sm bg-[#700482] md:bg-[#700482] border-y">
             <div class="grid max-w-screen-xl mx-auto text-white text-center sm:grid-cols-2 md:px-6">
                 <ul>
                     <li>
@@ -61,22 +52,11 @@
                             <div class="font-semibold">About</div>
                         </a>
                     </li>
-        
-                    <li>
-                        <a href="#about" class="block p-3 rounded-lg hover:text-gray-500">
-                            <div class="font-semibold">About</div>
-                        </a>
-                    </li>
                     <li>
                         <a href="#portfolio" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Portfolio</div>
                         </a>
                     </li>
-                    <!-- <li>
-                        <a href="#samples" class="block p-3 rounded-lg hover:text-gray-500">
-                            <div class="font-semibold">Samples</div>
-                        </a>
-                    </li> -->
                     <li>
                         <a href="#kontak" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Kontak</div>
@@ -89,16 +69,30 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                isMenuOpen: false
-            };
+export default {
+    data() {
+        return {
+            isMenuOpen: false,
+        };
+    },
+    methods: {
+        toggleMenu() {
+            this.isMenuOpen = !this.isMenuOpen;
         },
-        methods: {
-            toggleMenu() {
-                this.isMenuOpen = !this.isMenuOpen;
+        closeMenu(event) {
+            // Menutup menu jika klik di luar menu
+            if (this.isMenuOpen && !this.$el.contains(event.target)) {
+                this.isMenuOpen = false;
             }
         }
-    };
+    },
+    mounted() {
+        // Menambahkan event listener untuk mendeteksi klik di luar
+        document.addEventListener('click', this.closeMenu);
+    },
+    beforeDestroy() {
+        // Menghapus event listener saat komponen dihapus
+        document.removeEventListener('click', this.closeMenu);
+    }
+};
 </script>
