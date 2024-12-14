@@ -1,4 +1,5 @@
 <style>
+/* Parallax Section */
 .parallax {
   background-image: url("https://www.itworks.id/wp-content/uploads/2023/12/20231130-BPJPH-Kemenag-1.jpg");
   background-size: cover;
@@ -41,7 +42,7 @@
   position: relative;
   display: inline-block;
   padding: 3.5em 3em;
-  background-color: rgba(93, 93, 93, 0.5);
+  background-color: rgba(93, 93, 93, 1.5);
   border-radius: 8px;
   z-index: 1;
 }
@@ -62,6 +63,35 @@
 
 #loading-overlay.hidden {
   display: none;
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  /* Atur posisi Lottie Animation ke bawah pada layar mobile */
+  .animated-spin {
+    position: absolute;
+    bottom: 11.5rem; 
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero-text {
+    padding: 2em 2em; 
+  }
+
+  .parallax h1 {
+    font-size: 2rem;
+  }
+
+  .parallax p {
+    font-size: 1.5rem;
+    margin-top: 5.5rem;
+  }
+
+  .hero-text {
+    height: 70vh;
+    background-color: rgba(93, 93, 93, .5);
+  }
 }
 </style>
 

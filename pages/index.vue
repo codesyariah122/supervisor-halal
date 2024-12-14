@@ -1,7 +1,11 @@
 <template>
   <div>
     <dksindo-navigation />
+
     <dksindo-hero />
+
+    <dksindo-about-halal />
+
     <ContentQuery
       path="/"
       :only="[
@@ -22,6 +26,9 @@
     >
       <dksindo-products :data="data" />
     </ContentQuery>
+
+    <dksindo-gallery />
+
     <dksindo-portfolio />
     <!-- <dksindo-samples /> -->
     <dksindo-contact :teams="teams" />
@@ -41,7 +48,7 @@ useHead({
   ],
 });
 
-const blogCountLimit = 3;
+const blogCountLimit = 9;
 
 const { data } = await useAsyncData(`content-/services`, async () => {
   const _services = await queryContent("/services").only("headline").find();

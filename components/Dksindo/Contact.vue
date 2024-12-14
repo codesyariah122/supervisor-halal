@@ -1,8 +1,7 @@
 <template>
   <section id="kontak" class="bg-white py-24 -mb-4">
-    <div class="container mx-auto shadow-sm rounded px-8 pt-6 pb-8 mb-4">
+    <div class="container mx-auto shadow-sm rounded px-8 pt-6 pb-8">
       <h2 class="text-3xl font-bold mb-8 text-center">Our Contact</h2>
-      <!-- Product List -->
       <div class="flex justify-center items-center ml-0 lg:ml-[5rem]">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           <div v-for="team in teams" :key="team._id">
@@ -65,6 +64,13 @@
       </div>
     </div>
 
+    <!-- Add the office address and phone number -->
+    <div class="text-center mt-12">
+      <h3 class="text-2xl font-bold text-gray-800">Our Office</h3>
+      <p class="text-lg text-gray-600 mt-4">Alamat: Jl. Contoh No.123, Bandung, Jawa Barat</p>
+      <p class="text-lg text-gray-600 mt-2">Telepon: (022) 123-4567</p>
+    </div>
+
     <div class="flex flex-col justify-center items-center p-6">
       <div class="shrink-0 w-screen">
         <!-- Replace the src attribute with your Google Maps embed URL -->
@@ -78,6 +84,8 @@
         ></iframe>
       </div>
     </div>
+
+    
   </section>
 </template>
 
