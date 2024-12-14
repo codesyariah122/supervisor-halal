@@ -42,7 +42,7 @@
   position: relative;
   display: inline-block;
   padding: 3.5em 3em;
-  background-color: rgba(93, 93, 93, 1.5);
+  background-color: rgba(93, 93, 93, .5);
   border-radius: 8px;
   z-index: 1;
 }
