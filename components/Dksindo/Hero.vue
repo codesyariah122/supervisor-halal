@@ -70,7 +70,7 @@
   /* Atur posisi Lottie Animation ke bawah pada layar mobile */
   .animated-spin {
     position: absolute;
-    bottom: 11.5rem; 
+    bottom: 15.5rem; 
     width: 150px;
     height: 150px;
   }
