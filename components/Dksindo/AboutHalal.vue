@@ -71,8 +71,8 @@ export default {
 
   async mounted() {
     const response = await fetch("/api/images");
-    this.images = await response.json();
-    console.log(this.images);
+    const data = await response.json();
+    this.images = data?.images;
     this.setCarouselItems(); 
     window.addEventListener("resize", this.setCarouselItems); 
   },
