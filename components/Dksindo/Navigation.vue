@@ -57,6 +57,17 @@
                         </a>
                     </li>
                     <li>
+                        <a href="#about" class="block p-3 rounded-lg hover:text-gray-500">
+                            <div class="font-semibold">About</div>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="#about" class="block p-3 rounded-lg hover:text-gray-500">
+                            <div class="font-semibold">About</div>
+                        </a>
+                    </li>
+                    <li>
                         <a href="#portfolio" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Portfolio</div>
                         </a>

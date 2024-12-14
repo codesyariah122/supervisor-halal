@@ -134,7 +134,7 @@
                   ></lottie-player>
                 </div>
               </div>
-              Supervisor Halal
+              Halal Kita
             </h1>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default {
       setTimeout(() => {
         document.getElementById("loading-overlay").classList.add("hidden");
         document.querySelector(".animated-spin").classList.remove("hidden");
-      }, 3000); // Delay for 3 seconds
+      }, 1500); // Delay for 3 seconds
     },
   },
 };
