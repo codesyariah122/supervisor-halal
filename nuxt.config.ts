@@ -83,7 +83,7 @@ export default defineNuxtConfig({
       {
         hid: "og:image",
         property: "og:image",
-        content: "/logo-site.png",
+        content: "https://raw.githubusercontent.com/codesyariah122/supervisor-halal/refs/heads/main/public/images/gallery/WhatsApp%20Image%202024-10-23%20at%2022.17.42(1).jpeg",
       },
       {
         hid: "og:image:width",
