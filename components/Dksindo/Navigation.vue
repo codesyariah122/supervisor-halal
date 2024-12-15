@@ -3,7 +3,7 @@
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="https://flowbite.com" class="flex items-center space-x-2 text-3xl rtl:space-x-reverse">
                 <img src="@/assets/images/phoenix-logo.png" class="max-w-sm w-[30px] bg-transparent">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Halal Global</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nusantara Halal Global</span>
             </a>
             <button @click="toggleMenu" data-collapse-toggle="mega-menu-full" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#700482]" aria-controls="mega-menu-full" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>

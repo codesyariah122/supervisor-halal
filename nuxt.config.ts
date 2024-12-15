@@ -39,16 +39,16 @@ export default defineNuxtConfig({
       {
         hid: "description",
         name: "description",
-        content: "Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
+        content: "Nusantara Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
       },
       { name: "format-detection", content: "telephone=no" },
       {
         name: "keyword",
-        content: "Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam. Konsultasi masalah titit kecil, masalah percintaan, modal kawin , modal usaha dan segala macam permasalahan keduniawian",
+        content: "Nusantara Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam. Konsultasi masalah titit kecil, masalah percintaan, modal kawin , modal usaha dan segala macam permasalahan keduniawian",
       },
       {
         name: "description",
-        content: "Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam. Konsultasi masalah titit kecil, masalah percintaan, modal kawin , modal usaha dan segala macam permasalahan keduniawian",
+        content: "Nusantara Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam. Konsultasi masalah titit kecil, masalah percintaan, modal kawin , modal usaha dan segala macam permasalahan keduniawian",
       },
       {
         hid: "og:url",
@@ -58,12 +58,12 @@ export default defineNuxtConfig({
       {
         hid: "og:site_name",
         property: "og:site_name",
-        content: "Supervisor Halal - Indonesia",
+        content: "Nusantara Halal Global",
       },
       {
         hid: "og:title",
         property: "og:title",
-        content: "Supervisor Halal - Indonesia",
+        content: "Nusantara Halal Global",
       },
       {
         hid: "og:description",
@@ -145,25 +145,25 @@ export default defineNuxtConfig({
   },
   pwa: {
     meta: {
-      title: "Halal Global",
+      title: "Nusantara Halal Global",
       author: "Phoenix Digital",
       icon: true,
       canonical: "https://supervisor-halal.vercel.app/",
-      description: "Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
-      keywords: "Halal Global - Business Halal Certification",
+      description: "Nusantara Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
+      keywords: "Nusantara Halal Global - Business Halal Certification",
       ogUrl: "https://supervisor-halal.vercel.app/",
       ogType: "website",
-      ogSiteName: "Halal Global",
-      ogTitle: "Halal Global",
+      ogSiteName: "Nusantara Halal Global",
+      ogTitle: "Nusantara Halal Global",
       ogImage: "https://raw.githubusercontent.com/codesyariah122/supervisor-halal/refs/heads/main/public/images/gallery/gallery1.jpeg",
       ogImageWidth: "600",
       ogImageHeight: "400",
     },
     manifest: {
       lang: "en",
-      name: "Halal Global",
-      short_name: "Halal Global",
-      description: "Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
+      name: "Nusantara Halal Global",
+      short_name: "Nusantara Halal Global",
+      description: "Nusantara Halal Global adalah lembaga yang berkomitmen untuk memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang transparan, dan memastikan standar halal yang sesuai dengan syariat Islam.",
       start_url: "https://supervisor-halal.vercel.app/",
       lang: "en",
       display: "standalone",

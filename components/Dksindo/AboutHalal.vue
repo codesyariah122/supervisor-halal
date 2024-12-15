@@ -6,10 +6,10 @@
     <!-- Content Section -->
     <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
       <h2 class="text-3xl lg:text-4xl font-semibold text-gray-800 mb-4">
-        Tentang Halal Global
+        Tentang Nusantara Halal Global
       </h2>
       <p class="text-base lg:text-lg text-gray-600 mb-6">
-        Halal Global adalah lembaga yang berkomitmen untuk
+        Nusantara Halal Global adalah lembaga yang berkomitmen untuk
         memastikan kehalalan produk yang dipasarkan di Indonesia. Kami mendukung
         perusahaan dalam proses sertifikasi halal, memberikan bimbingan yang
         transparan, dan memastikan standar halal yang sesuai dengan syariat

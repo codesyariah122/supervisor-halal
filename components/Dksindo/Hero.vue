@@ -134,7 +134,7 @@
                   ></lottie-player>
                 </div>
               </div>
-              Halal Global
+              Nusantara Halal Global
             </h1>
           </div>
         </div>

@@ -4,7 +4,7 @@
 			<div class="sm:flex sm:items-center sm:justify-between">
 				<a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
 					<img src="@/assets/images/phoenix-logo.png" class="max-w-sm w-[30px] bg-transparent">
-					<span class="brand self-center text-2xl font-semibold whitespace-nowrap">Halal Kita</span>
+					<span class="brand self-center text-2xl font-semibold whitespace-nowrap">Nusantara Halal Global</span>
 				</a>
 				<ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white hover:text-gray-400 sm:mb-0">
 					<li>
