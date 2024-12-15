@@ -1,7 +1,7 @@
 <template>
     <section id="gallery" class="p-8 bg-gray-100">
       <h2 class="text-4xl font-semibold text-center text-gray-800 mb-8">
-        Galeri Halal Kita
+        Galeri Halal Global
       </h2>
   
       <!-- Gallery Grid -->
