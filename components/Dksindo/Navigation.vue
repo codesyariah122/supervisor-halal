@@ -1,6 +1,6 @@
 <template>
     <nav class="my__nav bg-[rgba(255, 255, 255, 0.8)] text-gray-50 border-[rgba(255, 255, 255, 0.8)] fixed top-0 z-50 w-full">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
+        <div class="wrapper__nav flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
             <a href="https://flowbite.com" class="flex items-center space-x-2 text-3xl rtl:space-x-reverse">
                 <img v-if="!scroll" src="@/assets/images/logo-nhg2.webp" class="brand__logo max-w-sm w-[50%] bg-transparent">
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-gray-50">Nusantara Halal Global</span> -->
@@ -105,7 +105,7 @@ export default {
                 document.querySelector('.my__nav').classList.add('shadow-lg')
                 document.querySelector('.my__nav').classList.add('bg-white')
                 document.querySelector('.my__nav').classList.add('h-[110px]')
-                document.querySelector('.my__nav').classList.remove('p-2')
+                document.querySelector('.wrapper__nav').classList.remove('p-2')
                 document.querySelector('.nav__menu').classList.remove('text-gray-50')
                 document.querySelector('.nav__menu').classList.add('text-gray-800')
                 this.scroll = true;
@@ -114,6 +114,7 @@ export default {
                 document.querySelector('.my__nav').classList.remove('bg-white')
                 document.querySelector('.my__nav').classList.remove('h-[110px]')
                 document.querySelector('.my__nav').classList.add('bg-transparent')
+                document.querySelector('.wrapper__nav').classList.add('p-2')
                 document.querySelector('.nav__menu').classList.remove('text-gray-800')
                 document.querySelector('.nav__menu').classList.add('text-gray-50')
                 this.scroll = false;

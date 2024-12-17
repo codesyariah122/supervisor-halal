@@ -44,7 +44,7 @@
   position: relative;
   display: inline-block;
   padding: 3.5em 3em;
-  background-color: rgba(93, 93, 93, 0.6);
+  background-color: rgba(93, 93, 93, 0.3);
   border-radius: 8px;
   z-index: 1;
 }
@@ -56,7 +56,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
