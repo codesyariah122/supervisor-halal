@@ -103,7 +103,8 @@ export default {
         scrollingNav() {
             if(window.scrollY > 50) {
                 document.querySelector('.my__nav').classList.add('shadow-lg')
-                document.querySelector('.my__nav').classList.add('bg-white')
+                document.querySelector('.my__nav').classList.add('bg-[rgba(255,255,255,0.8)]')
+                document.querySelector('.my__nav').classList.remove('bg-transparent')
                 document.querySelector('.my__nav').classList.add('h-[110px]')
                 document.querySelector('.wrapper__nav').classList.remove('p-2')
                 document.querySelector('.nav__menu').classList.remove('text-gray-50')
@@ -111,7 +112,7 @@ export default {
                 this.scroll = true;
             } else {
                 document.querySelector('.my__nav').classList.remove('shadow-lg')
-                document.querySelector('.my__nav').classList.remove('bg-white')
+                document.querySelector('.my__nav').classList.remove('bg-[rgba(255,255,255,0.8)]')
                 document.querySelector('.my__nav').classList.remove('h-[110px]')
                 document.querySelector('.my__nav').classList.add('bg-transparent')
                 document.querySelector('.wrapper__nav').classList.add('p-2')
